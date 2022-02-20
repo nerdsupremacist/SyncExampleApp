@@ -131,27 +131,27 @@
         "package": "Sync",
         "repositoryURL": "https://github.com/nerdsupremacist/Sync.git",
         "state": {
-          "branch": "main",
-          "revision": "f32064eafb9f0475ce8921e0c9b64898b75fa44c",
-          "version": null
+          "branch": null,
+          "revision": "b2a680e976e693319f7f4241fe61d9498a083a60",
+          "version": "0.1.0"
         }
       },
       {
         "package": "SyncWebSocketClient",
         "repositoryURL": "https://github.com/nerdsupremacist/SyncWebSocketClient.git",
         "state": {
-          "branch": "main",
-          "revision": "689c76c5b11d8b7f94ce4b3f261d30a25fc594ff",
-          "version": null
+          "branch": null,
+          "revision": "57dca11f8c77207ed3f063fdb8f167c93f16a52a",
+          "version": "0.1.0"
         }
       },
       {
         "package": "SyncWebSocketVapor",
         "repositoryURL": "https://github.com/nerdsupremacist/SyncWebSocketVapor.git",
         "state": {
-          "branch": "main",
-          "revision": "7f21f7380227e26f8fdfdd4f276c61307e56e47a",
-          "version": null
+          "branch": null,
+          "revision": "b74c9cd5c4d756ae5e900f05a5322877421ad219",
+          "version": "0.1.0"
         }
       },
       {
