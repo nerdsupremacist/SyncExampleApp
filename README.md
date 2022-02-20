@@ -14,7 +14,7 @@
 
 # Sync Example App
 This is an example App to keep a simple Switch in sync across multiple devices using [Sync](https://github.com/nerdsupremacist/Sync).
-The demo looks reoughly like this:
+The demo looks roughly like this:
 
 <p align="center">
     <img src="https://github.com/nerdsupremacist/Sync/raw/main/demo.gif" width="600" max-width="90%" alt="Sync" />
