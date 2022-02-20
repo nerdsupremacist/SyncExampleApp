@@ -17,7 +17,7 @@ This is an example App to keep a simple Switch in sync across multiple devices u
 The demo looks reoughly like this:
 
 <p align="center">
-    <img src="demo.gif" width="600" max-width="90%" alt="Sync" />
+    <img src="https://github.com/nerdsupremacist/Sync/raw/main/demo.gif" width="600" max-width="90%" alt="Sync" />
 </p>
 
 ## License
