@@ -150,8 +150,8 @@
         "repositoryURL": "https://github.com/nerdsupremacist/Sync.git",
         "state": {
           "branch": null,
-          "revision": "a8feb69aaeaf54b2859bfe8c5d3e12322e7ebd39",
-          "version": "1.0.0"
+          "revision": "62d42c2ea8202ad8631dd5f81f669374e8317eb7",
+          "version": "1.0.1"
         }
       },
       {
@@ -159,8 +159,8 @@
         "repositoryURL": "https://github.com/nerdsupremacist/SyncWebSocketClient.git",
         "state": {
           "branch": null,
-          "revision": "b942998ed1a0f1a76ac289ddcae429675655978d",
-          "version": "1.0.0"
+          "revision": "13e021c0386de9ce1d7cdc15ce542bd0d7c33a67",
+          "version": "1.1.0"
         }
       },
       {
