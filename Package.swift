@@ -13,9 +13,9 @@ let package = Package(
                     targets: ["Server"]),
     ],
     dependencies: [
-        .package(name: "Sync", url: "https://github.com/nerdsupremacist/Sync.git", from: "0.1.0"),
-        .package(name: "SyncWebSocketClient", url: "https://github.com/nerdsupremacist/SyncWebSocketClient.git", from: "0.1.0"),
-        .package(name: "SyncWebSocketVapor", url: "https://github.com/nerdsupremacist/SyncWebSocketVapor.git", from: "0.1.0"),
+        .package(name: "Sync", url: "https://github.com/nerdsupremacist/Sync.git", from: "1.0.1"),
+        .package(name: "SyncWebSocketClient", url: "https://github.com/nerdsupremacist/SyncWebSocketClient.git", from: "1.1.0"),
+        .package(name: "SyncWebSocketVapor", url: "https://github.com/nerdsupremacist/SyncWebSocketVapor.git", from: "1.0.0"),
         .package(url: "https://github.com/vapor/vapor.git", .upToNextMajor(from: "4.0.0")),
     ],
     targets: [

@@ -10,23 +10,35 @@ public struct RootView: View {
     public init() { }
 
     public var body: some View {
-        Sync(ViewModel.self, using: WebSocketClientConnection(url: url)) { viewModel in
+        Sync(ViewModel.self,
+             using: .webSocket(url: url),
+             reconnectionStrategy: .tryAgain(delay: 5)) { viewModel in
+            
             ContentView(viewModel: viewModel)
         }
     }
 }
 
 struct ContentView: View {
-    @SyncedObservedObject
+    @SyncedObject
     var viewModel: ViewModel
 
     var body: some View {
         VStack {
-            Text("This view is synced over the network!").bold()
-            Text("Soo cool right?!")
+            if $viewModel.connection.isConnected {
+                Text("This view is synced over the network!").bold()
+                Text("Soo cool right?!")
+            }
 
             Toggle("Look at this toggle!", isOn: $viewModel.toggle)
                 .animation(.easeIn, value: viewModel.toggle)
+                .disabled(!$viewModel.connection.isConnected)
+                .animation(.easeInOut, value: !$viewModel.connection.isConnected)
+
+
+            if !$viewModel.connection.isConnected {
+                Text("Currently not connected").foregroundColor(.red).bold().padding()
+            }
         }
         .padding(64)
     }

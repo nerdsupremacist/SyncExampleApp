@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "AssociatedTypeRequirementsKit",
+        "repositoryURL": "https://github.com/nerdsupremacist/AssociatedTypeRequirementsKit.git",
+        "state": {
+          "branch": null,
+          "revision": "2e4c49c21ffb2135f1c99fbfcf2119c9d24f5e8c",
+          "version": "0.3.2"
+        }
+      },
+      {
         "package": "async-http-client",
         "repositoryURL": "https://github.com/swift-server/async-http-client.git",
         "state": {
@@ -35,6 +44,15 @@
           "branch": null,
           "revision": "2dd9368a3c9580792b77c7ef364f3735909d9996",
           "version": "4.5.1"
+        }
+      },
+      {
+        "package": "OpenCombine",
+        "repositoryURL": "https://github.com/OpenCombine/OpenCombine.git",
+        "state": {
+          "branch": null,
+          "revision": "9cf67e363738dbab61b47fb5eaed78d3db31e5ee",
+          "version": "0.13.0"
         }
       },
       {
@@ -132,8 +150,8 @@
         "repositoryURL": "https://github.com/nerdsupremacist/Sync.git",
         "state": {
           "branch": null,
-          "revision": "b2a680e976e693319f7f4241fe61d9498a083a60",
-          "version": "0.1.0"
+          "revision": "a8feb69aaeaf54b2859bfe8c5d3e12322e7ebd39",
+          "version": "1.0.0"
         }
       },
       {
@@ -141,8 +159,8 @@
         "repositoryURL": "https://github.com/nerdsupremacist/SyncWebSocketClient.git",
         "state": {
           "branch": null,
-          "revision": "57dca11f8c77207ed3f063fdb8f167c93f16a52a",
-          "version": "0.1.0"
+          "revision": "b942998ed1a0f1a76ac289ddcae429675655978d",
+          "version": "1.0.0"
         }
       },
       {
@@ -150,8 +168,8 @@
         "repositoryURL": "https://github.com/nerdsupremacist/SyncWebSocketVapor.git",
         "state": {
           "branch": null,
-          "revision": "b74c9cd5c4d756ae5e900f05a5322877421ad219",
-          "version": "0.1.0"
+          "revision": "d01c191a77338885bf48384eff21a6a6fceb354b",
+          "version": "1.0.0"
         }
       },
       {
